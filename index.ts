@@ -1,7 +1,22 @@
-const sum = (a: number, b: number) => {
-    return a + b;
-}
+// Boolean
+let isCool: boolean = true;
 
-const answer = sum(4, 5);
+// Number
+let age: number = 56;
 
-console.log(answer);
+// String
+let eyeColor: string = "Brown";
+let favouriteQuote: string = `I'm not old, i'm only ${age}`;
+
+// Array
+let pets: string[] = ["Cat", "Dog", "Pig"];
+let pets2: Array<string> = ["Lion", "Dragon", "Lizard"];
+
+// Object
+let wizard: object = {
+    a: "John"
+};
+
+// Null and Undefined
+let meh: undefined = undefined;
+let noo: null = null;
