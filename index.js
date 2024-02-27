@@ -27,3 +27,14 @@ var Size;
 })(Size || (Size = {}));
 ;
 var sizeName = Size.Small;
+// Any - !!!!!!!!!!!!!! NOT RECOMMENDED
+var whatever = "aghhhhhhhhhhhhhhhhhhhh noooooooooooooo!!!";
+whatever = basket;
+// Void
+var sing = function () {
+    console.log("lalalala");
+};
+// Never
+var error = function () {
+    throw Error("ooops");
+};

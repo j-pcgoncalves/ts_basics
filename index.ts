@@ -28,3 +28,17 @@ basket = ["basketball", 5];
 // Enum
 enum Size { Small = 1, Medium = 2, Large = 3 };
 let sizeName: number = Size.Small;
+
+// Any - !!!!!!!!!!!!!! NOT RECOMMENDED
+let whatever: any = "aghhhhhhhhhhhhhhhhhhhh noooooooooooooo!!!";
+whatever = basket;
+
+// Void
+let sing = (): void => {
+    console.log("lalalala");
+};
+
+// Never
+let error = (): never => {
+    throw Error("ooops");
+};
