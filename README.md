@@ -1,6 +1,6 @@
 # CRWN Clothing
 
-This project was made to learn the basics of TypeScript.
+This project was made to learn the basics of TypeScript. It serves as a reference for later, for me or for anyone that comes across this project.
 
 ## How to Use
 
