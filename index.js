@@ -46,3 +46,20 @@ var fightRobotArmy2 = function (robots) {
 };
 var dog = {};
 dog.count;
+// Function
+var fightRobotArmy3 = function (robots) {
+    console.log("FIGHT!!");
+};
+// Class
+var Animal = /** @class */ (function () {
+    function Animal(sound) {
+        this.sing = "lalala";
+        this.sing = sound;
+    }
+    Animal.prototype.greet = function () {
+        return "Hello, ".concat(this.sing);
+    };
+    return Animal;
+}());
+var lion = new Animal("RAAAWWWR");
+lion.greet();

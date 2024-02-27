@@ -67,3 +67,24 @@ interface CatArmy {
 
 let dog = {} as CatArmy;
 dog.count;
+
+// Function
+let fightRobotArmy3 = (robots: RobotArmy): void => {
+    console.log("FIGHT!!");
+}
+
+// Class
+class Animal {
+    private sing: string = "lalala";
+
+    constructor(sound: string) {
+        this.sing = sound;
+    }
+
+    greet(): string {
+        return `Hello, ${this.sing}`;
+    }
+}
+
+let lion = new Animal("RAAAWWWR");
+lion.greet();
