@@ -88,3 +88,6 @@ class Animal {
 
 let lion = new Animal("RAAAWWWR");
 lion.greet();
+
+// Union
+let confused: string | number = "hello";
