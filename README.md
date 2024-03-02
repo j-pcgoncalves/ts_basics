@@ -1,4 +1,4 @@
-# CRWN Clothing
+# TypeScript Basics
 
 This project was made to learn the basics of TypeScript. It serves as a reference for later, for me or for anyone that comes across this project.
 
